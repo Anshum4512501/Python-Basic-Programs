@@ -1,5 +1,5 @@
-s = input("Enter a string that you want to search in \n")
-def countChar(c):
+# s = input("Enter a string that you want to search in \n")
+def countChar(c,s):
     count,j = 0,len(s)
     for i in s :
         j = j-1
@@ -8,5 +8,5 @@ def countChar(c):
         if j == 0:
              break
     print(c , count)
-c = input("Enter a character that you need to search\n")
-countChar(c)
+# c = input("Enter a character that you need to search\n")
+# countChar(c)
