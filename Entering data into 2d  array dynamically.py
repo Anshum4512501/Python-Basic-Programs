@@ -1,6 +1,6 @@
 m = int(input("Enter number of rows \n"))
 n = int(input("Enter number of columns \n"))
-l = []
+
 arr =[]
 # while m >=0:
 #     while n>=0:
@@ -12,8 +12,10 @@ arr =[]
 #     m=m-1
 #
 
-for i in range(0,m-1):
-    for j in range(0,n-1):
+for i in range(0,m):
+    l = []
+    for j in range(0,n):
         l.append(int(input("Enter a number \n")))
-    arr.append(l[i])
+    print("You have entred this row",l)    
+    arr.append(l)
 print(arr)
