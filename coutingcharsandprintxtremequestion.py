@@ -1,6 +1,6 @@
 # string = 'c:\\new'
 # print(string)
-string2  = "asasasasddassffddssasdd"
+string2  = "anshumishranoorshama"
 l=[]
 
 def countCharacter(c):
